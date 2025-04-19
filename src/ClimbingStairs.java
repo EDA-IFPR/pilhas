@@ -13,6 +13,7 @@ public class ClimbingStairs {
         else return depthFirstSearch(numberOfStairs, stairsClimbed + 1) + depthFirstSearch(numberOfStairs, stairsClimbed + 2);
     }
 
+    // 2^n
     public static void main(String[] args) {
         System.out.println(climbStairs(43));
     }
